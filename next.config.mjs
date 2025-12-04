@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
-  reactCompiler: true,
+  react: {
+    compiler: false, // Disable React Compiler
+  },
+  images: {
+    domains: ['media2.dev.to'], 
+  },
 };
 
 export default nextConfig;
