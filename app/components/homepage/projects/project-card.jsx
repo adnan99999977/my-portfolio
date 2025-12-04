@@ -21,9 +21,9 @@ function ProjectCard({ project }) {
         </div>
 
         {/* PROJECT NAME */}
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl relative cursor-pointer group">
-          {project.name}
-
+        <div className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl relative cursor-pointer group">
+          {project.name} 
+          
           {/* 🎉 HOVER POPUP LINKS */}
           <div className="
             opacity-0 group-hover:opacity-100 
@@ -53,7 +53,7 @@ function ProjectCard({ project }) {
               GitHub Repo
             </Link>
           </div>
-        </p>
+        </div>
       </div>
 
       {/* CODE AREA */}
